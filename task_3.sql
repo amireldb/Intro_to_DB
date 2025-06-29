@@ -1,4 +1,5 @@
 import mysql.connector
+USE alx_book_store
 
 mydb = mysql.connector.connect(
 host = "localhost",
@@ -12,5 +13,3 @@ for db in mycursor :
     print(db)
 mycursor.close()
 mydb.close()
-
-
