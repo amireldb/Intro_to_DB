@@ -9,4 +9,4 @@ FROM
     INFORMATION_SCHEMA.COLUMNS
 WHERE 
     TABLE_SCHEMA = 'alx_book_store'
-    AND TABLE_NAME = 'BOOKS';
+    AND TABLE_NAME = 'Books';
