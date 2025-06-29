@@ -1,5 +1,5 @@
 import mysql.connector
-USE alx_book_store
+USE alx_book_store;
 
 mydb = mysql.connector.connect(
 host = "localhost",
