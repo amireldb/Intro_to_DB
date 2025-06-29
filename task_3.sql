@@ -6,7 +6,7 @@ user = "root" ,
 password = "Aa#01207036888" 
 )
 mycursor = mydb.cursor()
-mycursor.execute(" SHOW DATABASE ")
+mycursor.execute(" SHOW TABLES ")
 for db in mycursor :
     print(db)
 mycursor.close
